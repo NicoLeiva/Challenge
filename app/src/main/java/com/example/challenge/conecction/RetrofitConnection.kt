@@ -14,7 +14,7 @@ object RetrofitConnection {
             .build()
     }
 
-    val apiService:ApiService by lazy {
+    private val apiService:ApiService by lazy {
         provideRetrofit().create(ApiService::class.java)
     }
 

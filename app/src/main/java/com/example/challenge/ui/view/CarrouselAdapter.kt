@@ -11,14 +11,14 @@ import com.example.challenge.model.Image
 import com.squareup.picasso.Picasso
 
 class CarrouselAdapter(
-    val images: List<Image>,
+    private val images: List<Image>,
     var ctx:Context) : PagerAdapter() {
 
 
     lateinit var layoutInflater: LayoutInflater
 
     override fun getCount(): Int {
-        return images.size
+        return this.images.size
     }
 
     override fun isViewFromObject(view: View, `object`: Any): Boolean {

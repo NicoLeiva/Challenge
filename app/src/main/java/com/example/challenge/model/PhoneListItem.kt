@@ -13,6 +13,5 @@ data class PhoneListItem(
     val topTag: String,
     val mainImage: MainImage,
 ): Parcelable {
-    constructor() : this("", listOf(), "","","","",MainImage())
 
 }

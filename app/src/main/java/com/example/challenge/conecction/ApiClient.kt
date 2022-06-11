@@ -7,7 +7,7 @@ import retrofit2.Response
 class ApiClient (
     private val apiService: ApiService) {
 
-    suspend fun getAllPhones(): Response<PhoneListX>? {
+    suspend fun getAllPhones(): Response<PhoneListX> {
 
         return apiService.getAllPhones()
     }

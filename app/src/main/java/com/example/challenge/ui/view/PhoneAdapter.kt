@@ -1,4 +1,4 @@
-package com.example.challenge.ui
+package com.example.challenge.ui.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,8 +9,9 @@ import com.example.challenge.databinding.PhoneItemBinding
 import com.example.challenge.model.PhoneListItem
 import com.squareup.picasso.Picasso
 
-class PhoneAdapter(val phones: ArrayList<PhoneListItem>,
-                   private val mListener:(String) -> Unit): RecyclerView.Adapter<PhoneViewHolder>() {
+class PhoneAdapter(
+    private val phones: ArrayList<PhoneListItem>,
+    private val mListener:(String) -> Unit): RecyclerView.Adapter<PhoneViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PhoneViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)

@@ -8,10 +8,8 @@ class PhoneRepository {
 
     suspend fun getAllPhones() : PhoneListX? {
         val request = RetrofitConnection.apiClient.getAllPhones()
-        if (request != null) {
-            if( request.isSuccessful)
-                return request.body()
-        }
+        if( request.isSuccessful)
+            return request.body()
         return null
     }
 

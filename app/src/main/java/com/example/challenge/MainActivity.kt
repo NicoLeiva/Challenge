@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager.widget.ViewPager
 import com.example.challenge.databinding.ActivityMainBinding
 import com.example.challenge.model.PhoneListItem
-import com.example.challenge.ui.PhoneAdapter
+import com.example.challenge.ui.view.PhoneAdapter
 import com.example.challenge.ui.view.CarrouselAdapter
 import com.example.challenge.ui.viewmodel.PhoneViewModel
 
