@@ -1,15 +1,15 @@
-#Challenge
+# Challenge
 
-##Descrpcion
+## Descrpcion
 Se muestra catalogo de celulares, mostrando fotos y legales al cliquear en cada uno.
 
-##Consideraciones
+## Consideraciones
 Un link de las imagenes tenia acceso restrigido un error por eso se muestra una imagen en blanco.
 
-##Mejoras
+## Mejoras
 Hay una variable 'firstTime' que se agrego porque el AlertDialog se abria varias veces.
 No se encontro la solucion rapidamente.
 Resta agregar mensajes de error ante errores de servicio y parseo de datos.
 
-##Autor
+## Autor
 Nicolas Leiva - nicoleiva08@gmail.com
